@@ -1,0 +1,40 @@
+1359 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+5654 [main] INFO  com.ebay.fw.AppManager -- Tests start in Chrome Browser
+9389 [main] INFO  com.ebay.fw.AppManager -- Current url is https://www.ebay.de/
+9923 [main] INFO  com.ebay.tests.TestBase -- Start test searchItem with data: []
+9931 [main] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.xpath: (//a[.='Elektronik'])[1]
+10051 [main] INFO  com.ebay.fw.MyListener -- Location of element is (238, 118)
+11781 [main] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .b-visualnav__tile:nth-child(1)
+11865 [main] INFO  com.ebay.fw.MyListener -- Location of element is (244, 643)
+14698 [main] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .b-visualnav__tile:nth-child(1)
+14937 [main] INFO  com.ebay.fw.MyListener -- Location of element is (244, 287)
+17381 [main] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .s-item:nth-child(2) h3
+17575 [main] INFO  com.ebay.fw.MyListener -- Location of element is (500, 2601)
+17603 [main] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+17645 [main] INFO  com.ebay.fw.MyListener -- Location of element is (257, 49)
+17796 [main] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+17902 [main] INFO  com.ebay.fw.MyListener -- Location of element is (257, 49)
+17947 [main] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+17986 [main] INFO  com.ebay.fw.MyListener -- Location of element is (257, 49)
+18228 [main] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-bth
+28257 [main] INFO  com.ebay.fw.MyListener -- The test has a problem
+28258 [main] INFO  com.ebay.fw.MyListener -- ***********
+28258 [main] INFO  com.ebay.fw.MyListener -- Method ---> findElement
+28258 [main] INFO  com.ebay.fw.MyListener -- ***********
+28259 [main] INFO  com.ebay.fw.MyListener -- Target exception ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#gh\-bth"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80adab51d7b10337e6f62993f8896db7, findElement {using=id, value=gh-bth}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\AITTRS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61007}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61007/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80adab51d7b10337e6f62993f8896db7
+28259 [main] INFO  com.ebay.fw.MyListener -- ***********
+28259 [main] INFO  com.ebay.fw.MyListener -- Object target ChromeDriver: chrome on windows (80adab51d7b10337e6f62993f8896db7)
+28260 [main] INFO  com.ebay.fw.MyListener -- Screen with error ---> src\test\screenshots\screen_1491.png
+28622 [main] ERROR com.ebay.tests.TestBase -- FAILED: searchItem
+28623 [main] INFO  com.ebay.tests.TestBase -- Stop test
+28623 [main] INFO  com.ebay.tests.TestBase -- ==================================================

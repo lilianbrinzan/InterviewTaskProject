@@ -1,0 +1,29 @@
+10009 [Test worker] INFO  com.ebay.fw.AppManager -- Tests start in Edge Browser
+12249 [Test worker] INFO  com.ebay.fw.AppManager -- Current url is https://www.ebay.de/
+12801 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.xpath: (//a[.='Elektronik'])[1]
+12936 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (224, 118)
+14728 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .b-visualnav__tile:nth-child(1)
+14799 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (244, 624)
+17494 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .b-visualnav__tile:nth-child(1)
+17724 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (244, 287)
+20211 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .s-item:nth-child(2) h3
+20382 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (566, 2684)
+20404 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+20447 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (256, 49)
+20592 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+20713 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (256, 49)
+20751 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+20787 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (256, 49)
+21039 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-bth
+30472 [Test worker] INFO  com.ebay.fw.MyListener -- The test has a problem
+30473 [Test worker] INFO  com.ebay.fw.MyListener -- ***********
+30473 [Test worker] INFO  com.ebay.fw.MyListener -- Method ---> findElement
+30473 [Test worker] INFO  com.ebay.fw.MyListener -- ***********
+30478 [Test worker] INFO  com.ebay.fw.MyListener -- Target exception ---> org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: gh-bth
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: RemoteWebDriver
+30497 [Test worker] INFO  com.ebay.fw.MyListener -- ***********
+30500 [Test worker] INFO  com.ebay.fw.MyListener -- Object target EdgeDriver: msedge on windows (9c7b2fcc9d510f898af66d0e4a463843)
+30501 [Test worker] INFO  com.ebay.fw.MyListener -- Screen with error ---> src\test\screenshots\screen_1991.png

@@ -1,0 +1,33 @@
+3428 [Test worker] INFO  com.ebay.fw.AppManager -- Tests start in Chrome Browser
+5464 [Test worker] INFO  com.ebay.fw.AppManager -- Current url is https://www.ebay.de/
+6003 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.xpath: (//a[.='Elektronik'])[1]
+6142 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (238, 118)
+7985 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .b-visualnav__tile:nth-child(1)
+8059 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (244, 643)
+10842 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .b-visualnav__tile:nth-child(1)
+11060 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (244, 287)
+13560 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.cssSelector: .s-item:nth-child(2) h3
+13734 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (500, 2601)
+13757 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+13800 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (257, 49)
+13996 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+14037 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (257, 49)
+14084 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-ac
+14121 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is (257, 49)
+14348 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find element ---> By.id: gh-bth
+24392 [Test worker] INFO  com.ebay.fw.MyListener -- The test has a problem
+24392 [Test worker] INFO  com.ebay.fw.MyListener -- ***********
+24392 [Test worker] INFO  com.ebay.fw.MyListener -- Method ---> findElement
+24392 [Test worker] INFO  com.ebay.fw.MyListener -- ***********
+24394 [Test worker] INFO  com.ebay.fw.MyListener -- Target exception ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#gh\-bth"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c495ef93ecd048194ac00732909ab8f3, findElement {using=id, value=gh-bth}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\AITTRS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49717/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c495ef93ecd048194ac00732909ab8f3
+24395 [Test worker] INFO  com.ebay.fw.MyListener -- ***********
+24395 [Test worker] INFO  com.ebay.fw.MyListener -- Object target ChromeDriver: chrome on windows (c495ef93ecd048194ac00732909ab8f3)
+24396 [Test worker] INFO  com.ebay.fw.MyListener -- Screen with error ---> src\test\screenshots\screen_1642.png
